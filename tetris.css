@@ -1,0 +1,37 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(20, 30px);
+    border: 1px solid black;
+    width: 300px;
+    height: 600px;
+    margin: 0 auto;
+    
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.tetris-piece {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    margin-left: 619px;
+    margin-top: 93px;
+   
+}
+
+#startButton{
+    margin-left: 700px;
+    margin-bottom: 30px;
+    background-color: skyblue;
+    padding: 15px 12px;
+    font-size: 18px;
+}
+
